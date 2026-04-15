@@ -4,7 +4,7 @@ public class Vendedor {
     private double montoVendido;
     private double porcentajeComision;
     private int cumplimientoMeta;
-
+    //Constructor
     public Vendedor(String nombre, String area, double montoVendido, double porcentajeComision, int cumplimientoMeta){
         this.nombre = nombre;
         this.area = area;
@@ -12,7 +12,7 @@ public class Vendedor {
         this.porcentajeComision = porcentajeComision;
         this.cumplimientoMeta = cumplimientoMeta;
     }
-
+    //Metodos get
     public double getMontoVendido() {
         return montoVendido;
     }
@@ -24,7 +24,7 @@ public class Vendedor {
     public int getCumplimientoMeta() {
         return cumplimientoMeta;
     }
-
+    //Metodos set
     public void setMontoVendido(double montoVendido) {
         if (montoVendido >= 0) {
             this.montoVendido = montoVendido;
