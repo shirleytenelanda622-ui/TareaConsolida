@@ -6,6 +6,7 @@ public class Paciente {
     private double costoConsulta;
     private int numeroConsultasRealizadas;
     private int nivelPrioridad;
+    //Constructor
     public Paciente(String nombre, int numeroIdentificacion, String tipoSeguroMedico, int edad, double costoConsulta, int numeroConsultasRealizadas, int nivelPrioridad){
         this.nombre = nombre;
         this.numeroIdentificacion = numeroIdentificacion;
@@ -15,7 +16,7 @@ public class Paciente {
         this.numeroConsultasRealizadas = numeroConsultasRealizadas;
         this.nivelPrioridad = nivelPrioridad;
     }
-
+    //Metodos get
     public String getNombre() {
         return nombre;
     }
@@ -43,7 +44,7 @@ public class Paciente {
     public int getNivelPrioridad() {
         return nivelPrioridad;
     }
-
+    //Metodos set
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
